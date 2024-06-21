@@ -1,15 +1,17 @@
-class hello {
-     public static void main(String[] args)
-     {
-       System.out.print("Hello");
-     }  
-     
-};
-public class prgm1{
-  public static void main(String... args)
-     {
-       System.out.print("prgm1");
-     }  
+import java.util.Scanner;
 
-};
+class prgm1 {
+  public static void main(String[] args) {
+    int num1, num2;
+    Scanner s = new Scanner(System.in);
+    num1 = s.nextInt();
+    num2 = s.nextInt();
+    //
+    if (num1 > num2) {
+      System.out.println(num1);
+    } else {
+      System.out.println(num2);
+    }
 
+  }
+}

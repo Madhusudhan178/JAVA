@@ -1,14 +1,19 @@
-public class prgm2 {
-     public static void main(String[] args) {
-          System.out.println("Hi");
-          int a=7;
-          int b=10,c=4;
-          int max=(a>b)?(a>c?a:c):(b>c?b:c);
-          System.out.println("The highest amoung three number is:"+max);
-          System.out.println("this is age of him:"+a); 
-          System.out.println(--a +" Dhoni");
-          System.out.println(5>3 && 5<10);
-          System.out.println(a^2);
-     }
-     
+import java.util.Scanner;
+
+class prgm2 {
+  public static void main(String[] args) {
+     //create 2 char variables
+    char char1, char2;
+    //read characters
+    Scanner s = new Scanner(System.in);
+    char1 = s.next().charAt(0);
+    char2 = s.next().charAt(0);
+    //
+    if (char1 < char2) {
+      System.out.println(char1+ " is smallest char");
+    } else {
+      System.out.println(char2+"is greater");
+    }
+
+  }
 }
