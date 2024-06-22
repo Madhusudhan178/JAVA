@@ -12,7 +12,7 @@ class prgm2 {
     if (char1 < char2) {
       System.out.println(char1+ " is smallest char");
     } else {
-      System.out.println(char2+"is greater");
+      System.out.println(char2+"is greater"); 
     }
 
   }
